@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/URL_SHORTER_FRONTEND/static/css/main.6511d796.css",
-    "main.js": "/URL_SHORTER_FRONTEND/static/js/main.0f99af4d.js",
-    "static/js/453.8ab44547.chunk.js": "/URL_SHORTER_FRONTEND/static/js/453.8ab44547.chunk.js",
-    "static/media/gradient-dark-blue-futuristic-digital-grid-background(1).jpg": "/URL_SHORTER_FRONTEND/static/media/gradient-dark-blue-futuristic-digital-grid-background(1).0ced5307941f21f9b7cb.jpg",
-    "index.html": "/URL_SHORTER_FRONTEND/index.html",
-    "main.6511d796.css.map": "/URL_SHORTER_FRONTEND/static/css/main.6511d796.css.map",
-    "main.0f99af4d.js.map": "/URL_SHORTER_FRONTEND/static/js/main.0f99af4d.js.map",
-    "453.8ab44547.chunk.js.map": "/URL_SHORTER_FRONTEND/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/URL-SHORTER-FRONTEND/static/css/main.a4cf94b5.css",
+    "main.js": "/URL-SHORTER-FRONTEND/static/js/main.2a817e7f.js",
+    "static/js/453.8ab44547.chunk.js": "/URL-SHORTER-FRONTEND/static/js/453.8ab44547.chunk.js",
+    "static/media/gradient-dark-blue-futuristic-digital-grid-background(1).jpg": "/URL-SHORTER-FRONTEND/static/media/gradient-dark-blue-futuristic-digital-grid-background(1).0ced5307941f21f9b7cb.jpg",
+    "index.html": "/URL-SHORTER-FRONTEND/index.html",
+    "main.a4cf94b5.css.map": "/URL-SHORTER-FRONTEND/static/css/main.a4cf94b5.css.map",
+    "main.2a817e7f.js.map": "/URL-SHORTER-FRONTEND/static/js/main.2a817e7f.js.map",
+    "453.8ab44547.chunk.js.map": "/URL-SHORTER-FRONTEND/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6511d796.css",
-    "static/js/main.0f99af4d.js"
+    "static/css/main.a4cf94b5.css",
+    "static/js/main.2a817e7f.js"
   ]
 }
