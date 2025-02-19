@@ -1,0 +1,95 @@
+.screen{
+  display: block;
+  
+}
+.scr{
+  display: flex;
+
+}
+.header{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+position: fixed;
+  top: 0px;
+  padding: 16px;
+  color: white;
+ 
+}
+.sub-header{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 75px;
+  
+}
+.sub-header a{
+  margin-left: 30px;
+  
+}
+.sub-header p{
+  padding: 8px;
+  border-radius: 2px;
+  color: white;
+}
+.sub-header p:hover {
+  border: 2px solid grey;
+  color: black;
+  background-color: rgba(167, 164, 164, 0.582);
+  cursor: pointer;
+}
+.homeimg{
+  height: 720px;
+  width: 100%;
+  background-image: url('./img/gradient-dark-blue-futuristic-digital-grid-background\(1\).jpg');
+  background-size: cover;
+    background-position: center;
+   
+}
+.come{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.name-come {
+  display: flex;
+  position: fixed;
+  top: -100px;
+  transition: 1.5s;
+}
+
+.name-come.active {
+  top: 200px;
+}
+input{
+  height: 40px;
+  width: 600px;
+  border: 5px solid rgba(63, 74, 48, 0.614);
+  background-color: rgba(139, 136, 132, 0.612);
+  font-size: 20px;
+}
+input:hover{
+  border-color:rgba(0, 0, 0, 0.555);
+  background-color: rgba(242, 211, 247, 0.767);
+}
+button{
+  margin: 40px;
+  height: 40px;
+  width: 200px;
+   border: 5px solid rgba(63, 74, 48, 0.614);
+  background-color: rgba(139, 136, 132, 0.612);
+  font-size: 20px;
+
+}
+button:hover {
+  border-color: rgba(0, 0, 0, 0.555);
+  background-color: rgba(242, 211, 247, 0.767);
+}
+.result{
+  display: flex;
+  flex-direction: column;
+}
