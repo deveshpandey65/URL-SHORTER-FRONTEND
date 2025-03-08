@@ -4,7 +4,6 @@
 }
 .scr{
   display: flex;
-
 }
 .header{
   width: 100%;
@@ -12,36 +11,42 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-position: fixed;
-  top: 0px;
-  padding: 16px;
+  justify-content: space-between;
+  position: fixed;
+  top: 10px;
+  padding: 5px;
   color: white;
  
 }
 .sub-header{
   display: flex;
   flex-direction: row;
-  position: absolute;
-  right: 75px;
-  
+  padding-right: 20px;
 }
 .sub-header a{
   margin-left: 30px;
   
 }
 .sub-header p{
-  padding: 8px;
-  border-radius: 2px;
+  border-radius: 5px;
+  border: 2px solid rgba(128, 128, 128, 0);
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
+  @media (max-width: 768px) {
+      padding: 0px;
+      font-size: 15px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    }
+  
 }
 .sub-header p:hover {
-  border: 2px solid grey;
-  color: black;
-  background-color: rgba(167, 164, 164, 0.582);
+  border: 2px solid rgba(128, 128, 128, 0.473);
   cursor: pointer;
 }
 .homeimg{
-  height: 720px;
+  height: 100vh;
   width: 100%;
   background-image: url('./img/gradient-dark-blue-futuristic-digital-grid-background\(1\).jpg');
   background-size: cover;
@@ -53,7 +58,18 @@ position: fixed;
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
   flex-direction: column;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.249);
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 .name-come {
   display: flex;
@@ -67,29 +83,130 @@ position: fixed;
 }
 input{
   height: 40px;
-  width: 600px;
-  border: 5px solid rgba(63, 74, 48, 0.614);
-  background-color: rgba(139, 136, 132, 0.612);
-  font-size: 20px;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid rgba(27, 30, 31, 0.983);
+  background-color: rgba(255, 255, 255, 0.982);
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+  @media (max-width: 600px) {
+    font-size: 10px;
+    
+  }
 }
 input:hover{
-  border-color:rgba(0, 0, 0, 0.555);
-  background-color: rgba(242, 211, 247, 0.767);
+  background-color: rgba(255, 255, 255, 0.842);
+  transform: scale(1.1) ;
 }
 button{
-  margin: 40px;
   height: 40px;
-  width: 200px;
-   border: 5px solid rgba(63, 74, 48, 0.614);
-  background-color: rgba(139, 136, 132, 0.612);
-  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid rgba(63, 74, 48, 0.614);
+  background-color: rgb(254, 253, 252);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  transition: 0.5s;
 
 }
 button:hover {
-  border-color: rgba(0, 0, 0, 0.555);
-  background-color: rgba(242, 211, 247, 0.767);
+  background-color: rgba(226, 219, 227, 0.871);
+  transform: scale(1.1);
 }
 .result{
   display: flex;
   flex-direction: column;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(150, 141, 228, 0.541);
+  z-index: 1;
+}
+.copy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(203, 193, 193, 0.616);
+}
+.contact-form {
+  width: 100%;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  text-align: left;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+.contact-form button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.contact-form p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
 }
