@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/URL-SHORTER-FRONTEND/static/css/main.a4cf94b5.css",
-    "main.js": "/URL-SHORTER-FRONTEND/static/js/main.2a817e7f.js",
+    "main.css": "/URL-SHORTER-FRONTEND/static/css/main.a17498a5.css",
+    "main.js": "/URL-SHORTER-FRONTEND/static/js/main.fd593a47.js",
     "static/js/453.8ab44547.chunk.js": "/URL-SHORTER-FRONTEND/static/js/453.8ab44547.chunk.js",
     "static/media/gradient-dark-blue-futuristic-digital-grid-background(1).jpg": "/URL-SHORTER-FRONTEND/static/media/gradient-dark-blue-futuristic-digital-grid-background(1).0ced5307941f21f9b7cb.jpg",
     "index.html": "/URL-SHORTER-FRONTEND/index.html",
-    "main.a4cf94b5.css.map": "/URL-SHORTER-FRONTEND/static/css/main.a4cf94b5.css.map",
-    "main.2a817e7f.js.map": "/URL-SHORTER-FRONTEND/static/js/main.2a817e7f.js.map",
+    "main.a17498a5.css.map": "/URL-SHORTER-FRONTEND/static/css/main.a17498a5.css.map",
+    "main.fd593a47.js.map": "/URL-SHORTER-FRONTEND/static/js/main.fd593a47.js.map",
     "453.8ab44547.chunk.js.map": "/URL-SHORTER-FRONTEND/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4cf94b5.css",
-    "static/js/main.2a817e7f.js"
+    "static/css/main.a17498a5.css",
+    "static/js/main.fd593a47.js"
   ]
 }
